@@ -15,6 +15,6 @@ def fermat_factor(num):
         else: continue
 
 if __name__ == "__main__"  :
-    nums = [40, 13, 19, 67, 45]
+    nums = [40, 13, 19, 67, 45, 65]
     for i in range(len(nums)):
         fermat_factor(nums[i])        
